@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# VS Code
+.vscode/
+.history/
+
+# Environment files
+.env
+.env.*
+
+# Build output
+dist/
+build/
+out/
+
+# Others
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Coverage
+coverage/
+*.lcov
+
+# Test output

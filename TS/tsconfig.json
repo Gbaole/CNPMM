@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // Biên dịch mã nguồn về phiên bản ES mới nhất (hoặc es2017/es2020 tùy môi trường bạn muốn hỗ trợ)
+    "module": "commonjs", // Sử dụng hệ thống module CommonJS (cho Node.js)
+    "rootDir": "./", // Thư mục gốc của các file TypeScript
+    "outDir": "./dist", // Thư mục đầu ra cho các file JavaScript đã biên dịch
+    "esModuleInterop": true, // Cho phép import default exports từ các module CommonJS
+    "forceConsistentCasingInFileNames": true, // Đảm bảo tên file nhất quán về chữ hoa/thường
+    "strict": true, // Bật tất cả các chế độ kiểm tra kiểu nghiêm ngặt
+    "skipLibCheck": true, // Bỏ qua kiểm tra kiểu cho các file thư viện
+    "resolveJsonModule": true // Cho phép import các file .json
+  },
+  "include": [
+    "**/*.ts" // Bao gồm tất cả các file .ts trong dự án
+  ],
+  "exclude": [
+    "node_modules", // Loại trừ thư mục node_modules
+    "**/*.spec.ts" // Loại trừ các file test (nếu có)
+  ]
+}
